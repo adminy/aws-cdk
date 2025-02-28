@@ -41,6 +41,8 @@ export class LinuxLambdaBuildImage implements IBuildImage {
   public static readonly AMAZON_LINUX_2_DOTNET_6 = LinuxLambdaBuildImage.fromCodeBuildImageId('aws/codebuild/amazonlinux-x86_64-lambda-standard:dotnet6');
   /** The `aws/codebuild/amazonlinux-x86_64-lambda-standard:dotnet8` build image. */
   public static readonly AMAZON_LINUX_2023_DOTNET_8 = LinuxLambdaBuildImage.fromCodeBuildImageId('aws/codebuild/amazonlinux-x86_64-lambda-standard:dotnet8');
+  /** The `aws/codebuild/amazonlinux-x86_64-lambda-standard:dotnet9` build image. */
+  public static readonly AMAZON_LINUX_2023_DOTNET_9 = LinuxLambdaBuildImage.fromCodeBuildImageId('aws/codebuild/amazonlinux-x86_64-lambda-standard:dotnet9');
 
   /**
    * Uses a Docker image provided by CodeBuild.
